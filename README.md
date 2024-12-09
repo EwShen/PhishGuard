@@ -29,3 +29,6 @@ Both team members also contributed to each other's sections through help with co
 - Cursor and Chat-GPT for helping us learn to implement and use the APIs of VirusTotal and NewsAPI
 - Dr. Cibrian's slides and code on implementing machine learning into Swift
 - The Phishing dataset from https://huggingface.co/datasets/ealvaradob/phishing-dataset/tree/main and the SMS Spam dataset from https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset?resource=download
+
+### Note
+- To properly run the project in XCode, put the PNG logo in the assets folder
