@@ -26,7 +26,7 @@ Both team members also contributed to each other's sections through help with co
 ### References
 - Cukmekerb's Coding Class (https://www.youtube.com/watch?v=yY0ciWj8oco) for teaching us about News API
 - VirusTotal and News API for API functionality
-- Cursor and Chat-GPT for helping us learn to implement and use the APIs of VirusTotal and NewsAPI
+- Cursor and Chat-GPT for helping us learn to implement and use the APIs of VirusTotal and NewsAPI and debugging
 - Dr. Cibrian's slides and code on implementing machine learning into Swift
 - The Phishing dataset from https://huggingface.co/datasets/ealvaradob/phishing-dataset/tree/main and the SMS Spam dataset from https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset?resource=download
 
