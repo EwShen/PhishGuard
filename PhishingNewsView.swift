@@ -96,7 +96,7 @@ struct PhishingNewsView: View {
     // function uses the URL to create a session to fetch data from News API
     // Reference: Chat-GPT to explain URL sessions and fetching data from News API with a DispatchQueue
     private func fetchNews() {
-        guard let url = URL(string: "https://newsapi.org/v2/everything?q=phishing&apiKey=60ad00fada874ef8a4103b5e340f40b7&language=en") else { // throwaway API key, everthing?=phishing and language=en restricts appearing news articles to what we want
+        guard let url = URL(string: "https://newsapi.org/v2/everything?q=phishing&apiKey=\(apiKey)&language=en") else { // throwaway API key, everthing?=phishing and language=en restricts appearing news articles to what we want
             self.errorMessage = "Invalid API URL" // error handling
             self.isLoading = false
             return
@@ -131,4 +131,3 @@ struct PhishingNewsView: View {
         }.resume()
     }
 }
-
