@@ -1,5 +1,7 @@
 # PhishGuard
 PhishGuard is a mobile application that contains several tools to combat phishing attacks.
+The application was first developed in Python as a web tool and was integrated with Selenium for headless browser-based analysis of URLs.
+The application was then converted to a Swift mobile application for iOS and included more features, such as malicious text detection using Apple's machine learning framework and real-time cybersecurity news delivery with NewsAPI.
 
 ### Features
 - QR Code Decoding
